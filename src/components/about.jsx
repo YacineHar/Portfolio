@@ -21,7 +21,7 @@ class About extends React.Component {
       ],
       about_me: [
         { id: "first-p-about", content: "Je suis un étudiant en développement web chez Epitech, cursus web@cadémie" },
-        { id: "second-p-about", content: "Actuellement en alternance chez Trusted en tant que développeur web jusq'au 14 Novembre 2025" },
+        { id: "second-p-about", content: "Actuellement en alternance chez Trusted en tant que développeur web jusqu'au 14 Novembre 2025" },
         { id: "third-p-about", content: "Passionné par la programmation, j’ai développé une affinité particulière pour le développement backend. Toujours en quête d’apprentissage, je m’intéresse également aux technologies cloud, à la data et à la sécurité des applications." }
       ],
       formations: [
