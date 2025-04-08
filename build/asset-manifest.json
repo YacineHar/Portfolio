@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.2f6e269f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c034e779.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c034e779.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.4a88bb1c.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.4a88bb1c.js.map",
+    "static/css/2.da6fb2c5.chunk.css": "/react-portfolio/static/css/2.da6fb2c5.chunk.css",
+    "static/js/2.069c04e9.chunk.js": "/react-portfolio/static/js/2.069c04e9.chunk.js",
+    "static/js/2.069c04e9.chunk.js.map": "/react-portfolio/static/js/2.069c04e9.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.6f3cc2129d4dfd903fc2a250b41360d4.js": "/react-portfolio/precache-manifest.6f3cc2129d4dfd903fc2a250b41360d4.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.da6fb2c5.chunk.css.map": "/react-portfolio/static/css/2.da6fb2c5.chunk.css.map",
+    "static/css/main.2f6e269f.chunk.css.map": "/react-portfolio/static/css/main.2f6e269f.chunk.css.map",
+    "static/js/2.069c04e9.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.069c04e9.chunk.js.LICENSE.txt",
+    "static/media/anime.jpg": "/react-portfolio/static/media/anime.d9884fd6.jpg",
+    "static/media/background-bottom.jpeg": "/react-portfolio/static/media/background-bottom.8a827372.jpeg",
+    "static/media/font-awesome.css": "/react-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/gaming.jpg": "/react-portfolio/static/media/gaming.2df8976b.jpg",
+    "static/media/hardware.jpg": "/react-portfolio/static/media/hardware.f9898a17.jpg",
+    "static/media/image1.jpg": "/react-portfolio/static/media/image1.768998c6.jpg",
+    "static/media/image2.jpg": "/react-portfolio/static/media/image2.8de6195d.jpg",
+    "static/media/image3.jpg": "/react-portfolio/static/media/image3.28470933.jpg",
+    "static/media/image4.jpg": "/react-portfolio/static/media/image4.0b37f434.jpg",
+    "static/media/image5.jpg": "/react-portfolio/static/media/image5.8d16c4af.jpg",
+    "static/media/image6.jpg": "/react-portfolio/static/media/image6.62b7cc75.jpg",
+    "static/media/ionicons.css": "/react-portfolio/static/media/ionicons.621bd386.svg",
+    "static/media/male.gif": "/react-portfolio/static/media/male.0671acd9.gif",
+    "static/media/male1.gif": "/react-portfolio/static/media/male1.0671acd9.gif",
+    "static/media/musique.jpg": "/react-portfolio/static/media/musique.d4a747b0.jpg",
+    "static/media/plongée.jpg": "/react-portfolio/static/media/plongée.e3d58b21.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a88bb1c.js",
+    "static/css/2.da6fb2c5.chunk.css",
+    "static/js/2.069c04e9.chunk.js",
+    "static/css/main.2f6e269f.chunk.css",
+    "static/js/main.c034e779.chunk.js"
+  ]
+}
