@@ -157,7 +157,7 @@ class Contact extends React.Component {
                         </ul>
                         <div className="cv-download text-center mt-4">
                         <a
-                          href="/public/CV_Yacine_HARICHE.pdf"
+                          href="/CV_Yacine_HARICHE.pdf"
                           download="CV_Yacine_Hariche.pdf"
                           className="button button-a button-big button-rouded"
                         >
