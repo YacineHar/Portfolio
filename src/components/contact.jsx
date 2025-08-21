@@ -3,12 +3,8 @@ import imageOverlay from "../img/background-bottom.jpeg";
 
 class Contact extends React.Component {
   render() {
-    return (
-      <section
-        className="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: "url(" + imageOverlay + ")" }}
-      >
-        <div className="overlay-mf"></div>
+      return (
+    <section className="contact-section">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -21,14 +17,20 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://formspree.io/f/xjkoyqgr"
                           method="POST"
                           className="contactForm"
                         >
-                          <div id="sendmessage">
-                            Votre Message a bien été envoyé.
+                          <div id="sendmessage" style={{ display: 'none' }}>
+                            <div className="alert alert-success">
+                              <i className="ion-checkmark"></i> Votre message a bien été envoyé !
+                            </div>
                           </div>
-                          <div id="errormessage"></div>
+                          <div id="errormessage" style={{ display: 'none' }}>
+                            <div className="alert alert-danger">
+                              <i className="ion-alert"></i> Une erreur s'est produite. Veuillez réessayer.
+                            </div>
+                          </div>
                           <div className="row">
                             <div className="col-md-12 mb-3">
                               <div className="form-group">
@@ -175,17 +177,6 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
-        <footer>
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <div className="copyright-box">
-                <p className="copyright">© 2025 Yacine Hariche. Tous droits réservés.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
       </section>
     );
   }

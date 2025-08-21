@@ -24,9 +24,12 @@ import Navbar from './components/navbar.jsx';
 import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
 import Portfolio from './components/portfolio.jsx';
+import Comments from './components/comments.jsx';
 import Contact from './components/contact.jsx';
+import Footer from './components/footer.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
+import imageOverlay from './img/background-bottom.jpeg';
 
 
 
@@ -36,7 +39,14 @@ ReactDOM.render(
         <Intro />
         <About />
         <Portfolio />
-        <Contact />
+        <div 
+          className="paralax-mf footer-paralax bg-image route"
+          style={{ backgroundImage: "url(" + imageOverlay + ")" }}
+        >
+          <Contact />
+          <Comments />
+          <Footer />
+        </div>
         <BackToTop />
         <Preloader />
     </React.Fragment>,
