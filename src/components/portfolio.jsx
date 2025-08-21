@@ -16,6 +16,7 @@ import bot_1 from "../img/Projets/Bot_WhatsApp_Johneys/bot_WA_1.png";
 import bot_2 from "../img/Projets/Bot_WhatsApp_Johneys/bot_WA_2.png";
 import bot_3 from "../img/Projets/Bot_WhatsApp_Johneys/bot_WA_3.png";
 import bot_4 from "../img/Projets/Bot_WhatsApp_Johneys/bot_WA_4.png";
+import bot_5 from "../img/Projets/Bot_WhatsApp_Johneys/bot_WA_5.png";
 import johneys_1 from "../img/Projets/Site_Web_JOHNEYS/johneys_1.png";
 import johneys_2 from "../img/Projets/Site_Web_JOHNEYS/johneys_2.png";
 import johneys_3 from "../img/Projets/Site_Web_JOHNEYS/johneys_3.png";
@@ -368,6 +369,13 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={bot_4}
+                  data-lightbox="gallery-bot"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={bot_5}
                   data-lightbox="gallery-bot"
                   style={{ display: "none" }}
                 >
