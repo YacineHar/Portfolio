@@ -1470,13 +1470,120 @@ a[data-title]::after {
   }
 }
 
-/* Standardiser la taille des images des projets */
+/* PERFORMANCE OPTIMIZATIONS */
+/* Optimize font loading */
+@font-face {
+  font-display: swap;
+}
+
+/* Optimize image loading */
+img {
+  max-width: 100%;
+  height: auto;
+  will-change: transform;
+}
+
+/* Optimize animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Optimize critical CSS */
+.critical {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 500px;
+}
+
+/* Optimize rendering */
+* {
+  box-sizing: border-box;
+}
+
+/* Optimize layout shifts */
 .work-box .work-img {
+  aspect-ratio: 16/9;
+  contain: layout style paint;
+}
+
+/* Optimize comments section */
+.comments-section {
+  contain: layout style;
+  will-change: auto;
+}
+
+.comment-form-box,
+.comments-list {
+  contain: layout style;
+}
+
+/* Background images optimization */
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  will-change: auto;
+}
+
+/* Font loading optimization */
+body {
+  font-display: swap;
+}
+
+/* Preload critical fonts */
+@font-face {
+  font-family: 'FontAwesome';
+  font-display: swap;
+  src: url('./img/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ionicons';
+  font-display: swap;
+  src: url('./img/icons/fonts/ionicons.woff') format('woff');
+}
+
+/* ULTRA PERFORMANCE OPTIMIZATIONS */
+/* Prevent layout shifts with explicit dimensions */
+.navbar-brand img,
+.navbar-brand video {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+}
+
+/* Optimize video loading */
+video {
+  max-width: 100%;
+  height: auto;
+  will-change: auto;
+}
+
+/* Critical rendering path optimization */
+.work-box {
+  contain: layout style;
+}
+
+/* Reduce paint complexity */
+.work-box .work-img {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* STANDARDIZE PROJECT IMAGES */
+.work-box .work-img {
+  width: 100%;
   height: 250px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .work-box .work-img img {
@@ -1484,4 +1591,92 @@ a[data-title]::after {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.work-box .work-img:hover img {
+  transform: scale(1.05);
+}
+
+/* Ensure all project cards have same height */
+.work-box {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.work-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.w-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.w-ctegory {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Explicit dimensions for other images */
+.about-img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.intro-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Optimize CSS delivery */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}
+
+/* Optimize for mobile */
+@media (max-width: 768px) {
+  .work-box .work-img {
+    height: 200px;
+  }
+  
+  .work-box {
+    height: 350px;
+  }
+  
+  .about-img img {
+    height: 300px;
+  }
+  
+  .intro-img img {
+    height: 250px;
+  }
 }

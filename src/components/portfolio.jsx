@@ -29,6 +29,7 @@ import stock2 from "../img/image3.jpg";
 import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
+import male1 from "../img/optimized/male1.mp4";
 
 class Portfolio extends React.Component {
   constructor() {
