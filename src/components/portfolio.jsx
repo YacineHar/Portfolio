@@ -134,7 +134,7 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                     <div className="col-sm-4">
-                      <div className="w-like" onClick={(e) => {
+                      <div className="w-like github-icon" onClick={(e) => {
                         e.preventDefault();
                         e.stopPropagation();
                         window.open('https://github.com/YacineHar/Puissance4.git', '_blank');
@@ -171,7 +171,7 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                     <div className="col-sm-4">
-                      <div className="w-like" onClick={(e) => {
+                      <div className="w-like github-icon" onClick={(e) => {
                         e.preventDefault();
                         e.stopPropagation();
                         window.open('https://github.com/YacineHar/Battlecats-HTML5.git', '_blank');
@@ -216,7 +216,7 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                     <div className="col-sm-4">
-                      <div className="w-like" onClick={(e) => {
+                      <div className="w-like github-icon" onClick={(e) => {
                         e.preventDefault();
                         e.stopPropagation();
                         window.open('https://github.com/YacineHar/Jeu-GTA-Ruby-on-Rails.git', '_blank');
@@ -288,8 +288,12 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                     <div className="col-sm-4">
-                      <div className="w-like" style={{ display: "none" }}>
-                        <span className="ion-ios-plus-outline"></span>
+                      <div className="w-like custom-icon" onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        window.open('https://johneys.com/', '_blank');
+                      }}>
+                        <span className="ion-earth"></span>
                       </div>
                     </div>
                   </div>
@@ -347,8 +351,12 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                     <div className="col-sm-4">
-                      <div className="w-like" style={{ display: "none" }}>
-                        <span className="ion-ios-plus-outline"></span>
+                      <div className="w-like custom-icon" onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        window.open('https://api.whatsapp.com/send/?phone=237651587137&text&type=phone_number&app_absent=0', '_blank');
+                      }}>
+                        <span className="ion-social-whatsapp"></span>
                       </div>
                     </div>
                   </div>

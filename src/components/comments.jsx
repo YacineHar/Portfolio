@@ -12,9 +12,9 @@ const Comments = () => {
 
   const projects = [
     { id: "projet1", name: "Puissance 4" },
-    { id: "projet2", name: "Jeu HTML5" },
+    { id: "projet2", name: "Battlecats HTML5" },
     { id: "projet3", name: "Jeu GTA Ruby on Rails" },
-    { id: "projet4", name: "Site Web JOHNEYS" },
+    { id: "projet4", name: "Site Web Johneys" },
     { id: "projet5", name: "Assistant Virtuel Intelligent Johneys" }
   ];
 
