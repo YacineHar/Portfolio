@@ -396,24 +396,28 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={guesswhat_1} alt="" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">GuessWhat</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            GO, HTML5, JavaScript
-                          </span>
-                        </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">GuessWhat</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          GO, HTML5, JavaScript
+                        </span>
                       </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="w-like" onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        window.open('https://github.com/YacineHar/GuessWhat', '_blank');
+                      }}>
+                        <span className="ion-ios-plus-outline"></span>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
                 <a
                   href={guesswhat_2}
                   data-lightbox="gallery-guesswhat"
