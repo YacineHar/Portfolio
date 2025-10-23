@@ -23,12 +23,10 @@ import johneys_3 from "../img/Projets/Site_Web_JOHNEYS/johneys_3.png";
 import johneys_4 from "../img/Projets/Site_Web_JOHNEYS/johneys_4.png";
 import johneys_5 from "../img/Projets/Site_Web_JOHNEYS/johneys_5.png";
 import johneys_6 from "../img/Projets/Site_Web_JOHNEYS/johneys_6.png";
-import stock from "../img/image1.jpg";
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
+import guesswhat_1 from "../img/Projets/GuessWhat/GuessWhat_1.png";
+import guesswhat_2 from "../img/Projets/GuessWhat/GuessWhat_2.png";
+import guesswhat_3 from "../img/Projets/GuessWhat/GuessWhat_3.png";
+import guesswhat_4 from "../img/Projets/GuessWhat/GuessWhat_4.png";
 import male1 from "../img/optimized/male1.mp4";
 
 class Portfolio extends React.Component {
@@ -394,17 +392,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={guesswhat_1} data-lightbox="gallery-guesswhat">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={guesswhat_1} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Projet 6</h2>
+                        <h2 className="w-title">GuessWhat</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            e-commerce
+                            GO, HTML5, JavaScript
                           </span>
                         </div>
                       </div>
@@ -417,36 +415,22 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
-                  data-lightbox="gallery-smth"
+                  href={guesswhat_2}
+                  data-lightbox="gallery-guesswhat"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
-                  data-lightbox="gallery-smth"
+                  href={guesswhat_3}
+                  data-lightbox="gallery-guesswhat"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-smth"
+                  href={guesswhat_4}
+                  data-lightbox="gallery-guesswhat"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
