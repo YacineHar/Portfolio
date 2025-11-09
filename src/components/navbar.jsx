@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/optimized/male1.mp4";
-import logo2 from "../img/male.gif";
+import logo1 from "../img/photo-cv.png";
+import logo2 from "../img/photo-cv.png";
 
 class Navbar extends React.Component {
   constructor() {
@@ -87,24 +87,15 @@ class Navbar extends React.Component {
       >
         <div className="container">
           <a className="navbar-brand js-scroll" href="#page-top">
-            {this.state.logo === logo1 ? (
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                style={{ maxWidth: "100px", height: "auto" }}
-              >
-                <source src={this.state.logo} type="video/mp4" />
-                <img src={logo2} alt="logo" style={{ maxWidth: "100px" }} />
-              </video>
-            ) : (
-              <img
-                src={this.state.logo}
-                alt="logo"
-                style={{ maxWidth: "100px" }}
-              />
-            )}
+            <img
+              src={this.state.logo}
+              alt="logo"
+              style={{ 
+                maxWidth: "100px", 
+                height: "100px", 
+                objectFit: "contain"
+              }}
+            />
           </a>
           <button
             className="navbar-toggler collapsed"

@@ -27,7 +27,6 @@ import guesswhat_1 from "../img/Projets/GuessWhat/GuessWhat_1.png";
 import guesswhat_2 from "../img/Projets/GuessWhat/GuessWhat_2.png";
 import guesswhat_3 from "../img/Projets/GuessWhat/GuessWhat_3.png";
 import guesswhat_4 from "../img/Projets/GuessWhat/GuessWhat_4.png";
-import male1 from "../img/optimized/male1.mp4";
 
 class Portfolio extends React.Component {
   constructor() {
