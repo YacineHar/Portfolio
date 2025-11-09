@@ -4,12 +4,6 @@ import $ from "jquery";
 import logo from "../img/photo-cv.png";
 
 class Navbar extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      logo: logo
-    };
-  }
 
   componentDidMount() {
     const nav = $("nav");
@@ -38,7 +32,6 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-trans");
-        this.setState({ logo: logo });
       } else {
         document
           .querySelector(".navbar-expand-md")
@@ -46,7 +39,6 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-reduce");
-        this.setState({ logo: logo });
       }
     });
 
@@ -87,7 +79,7 @@ class Navbar extends React.Component {
         <div className="container">
           <a className="navbar-brand js-scroll" href="#page-top">
             <img
-              src={this.state.logo}
+              src={logo}
               alt="logo"
               style={{ 
                 maxWidth: "100px", 
