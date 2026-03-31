@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-sm-12">
             <div className="copyright-box text-center">
-              <p className="copyright">© 2025 Yacine Hariche. Tous droits réservés.</p>
+              <p className="copyright">© 2026 Yacine Hariche. Tous droits réservés.</p>
             </div>
           </div>
         </div>
