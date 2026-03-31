@@ -81,10 +81,13 @@ class Navbar extends React.Component {
             <img
               src={logo}
               alt="logo"
-              style={{ 
-                maxWidth: "100px", 
-                height: "100px", 
-                objectFit: "contain"
+              style={{
+                width: "80px",
+                height: "80px",
+                borderRadius: "50%",
+                objectFit: "cover",
+                border: "3px solid #fff",
+                boxShadow: "0px 0px 10px rgba(0,0,0,0.2)"
               }}
             />
           </a>
